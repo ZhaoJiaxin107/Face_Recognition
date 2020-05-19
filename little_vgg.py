@@ -104,6 +104,7 @@ model.add(Activation('softmax'))
 
 print(model.summary())
 
+# https://blog.csdn.net/willduan1/article/details/78070086
 from keras.optimizers import RMSprop,SGD,Adam
 from keras.callbacks import ModelCheckpoint,EarlyStopping,ReduceLROnPlateau
 
