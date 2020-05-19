@@ -8,7 +8,7 @@ import numpy as np
 face_classifier = cv2.CascadeClassifier('C:\\Users\\zjiax\\Desktop\\Projects\\Expression_Detection\\haarcascade_frontalface_default.xml')
 classifier = load_model('C:\\Users\\zjiax\\Desktop\\Projects\\Expression_Detection\\Emotion_little_vgg.h5')
 
-class_labels = ['CONTEMPT','ANGER','DISGUST','HAPPINESS','SADNESS','SURPRISE','CALM']
+class_labels = ['ANGER','DISGUST','FEAR','HAPPY','SAD','SURPRISED','NORMAL']
 
 cap = cv2.VideoCapture(0)
 
